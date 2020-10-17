@@ -12,6 +12,10 @@ public class Post {
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
+    private int canPin;
+    private int canDelete;
+    private int canEdit;
+    private GeoInfo geoInfo;
 
 
     // + get/set на все поля
